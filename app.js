@@ -5,7 +5,8 @@ require('dotenv/config');
 var bodyParser = require('body-parser')
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.use((req,res,next) => {
     res.header('Access-Control-Allow-Origin','*');
