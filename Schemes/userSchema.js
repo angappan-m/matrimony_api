@@ -43,7 +43,7 @@ const MarimonyUsers = new Schema({
   spouse_phone: String,
   spouse_tax: String,
   spouse_pan: String,
-  spouse_aadhar: String,
+  aadhar: String,
   like_ylf_host: String,
   club_org_mem: String,
   reg_date: String

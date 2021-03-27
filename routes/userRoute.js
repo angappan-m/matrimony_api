@@ -32,7 +32,7 @@ router.post('/reg_user',(req,res,next) => {
         spouse_phone: req.body.spouse_phone,
         spouse_tax: req.body.spouse_tax,
         spouse_pan: req.body.spouse_pan,
-        spouse_aadhar: req.body.spouse_aadhar,
+        aadhar: req.body.spouse_aadhar,
         like_ylf_host: req.body.like_ylf_host,
         club_org_mem: req.body.club_org_mem,
         reg_date: req.body.reg_date
