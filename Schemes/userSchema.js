@@ -22,7 +22,7 @@ const MarimonyUsers = new Schema({
   org: String,
   org_type: String,
   off_add: String,
-  disctrict: String,
+  district: String,
   pincode: String,
   state: String,
   phone: String,

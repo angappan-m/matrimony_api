@@ -11,7 +11,7 @@ router.post('/reg_user',(req,res,next) => {
         org: req.body.org,
         org_type: req.body.org_type,
         off_add: req.body.off_add,
-        disctrict: req.body.district,
+        district: req.body.district,
         pincode: req.body.pincode,
         state: req.body.state,
         phone: req.body.phone,
