@@ -48,7 +48,7 @@ router.post('/reg_user',(req,res,next) => {
 
 router.post('/login',(req,res,next) => {
     try{
-        data = {"email": req.body.email,"pass": req.body.pass};
+        data = {"email": req.body.email,"phone": req.body.phone};
         MarimonyUserCollection.findOne(data).then((result) => {
             if(result) {
                 res.json({'message':'Login Successful','status': true,'data': [result]});
